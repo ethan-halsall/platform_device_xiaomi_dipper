@@ -701,6 +701,9 @@
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
      
      <!-- Whether the device has outdated qti-telephony-common.jar -->
      <bool name="config_oldQtiTelephony">false</bool>
