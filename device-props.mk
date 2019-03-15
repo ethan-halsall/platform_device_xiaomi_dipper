@@ -14,3 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.displayfeature.histogram.enable=true \
     ro.eyecare.brightness.threshold=3 \
     ro.eyecare.brightness.level=8
+
+#Assistant
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true 	    
