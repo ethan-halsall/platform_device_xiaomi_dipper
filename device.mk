@@ -34,8 +34,7 @@ PRODUCT_PACKAGES += \
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    init.target.rc \
-	init.simple.sh
+    init.target.rc 
 
 # HIDL
 PRODUCT_COPY_FILES += \
